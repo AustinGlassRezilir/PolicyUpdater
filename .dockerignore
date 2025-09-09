@@ -1,0 +1,62 @@
+# --- Python bytecode / cache ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# --- Virtual environments ---
+venv/
+.venv/
+ENV/
+
+# --- Build / packaging artifacts ---
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# --- Test / tooling caches ---
+.pytest_cache/
+.mypy_cache/
+.tox/
+.nox/
+.ruff_cache/
+.pyre/
+.dmypy.json
+.coverage
+.coverage.*
+
+# --- Logs ---
+logs/
+*.log
+
+# --- Local data/output (yours) ---
+sharepoint_exports/
+
+# --- IDE / project files ---
+.idea/
+.vscode/
+*.iml
+
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
+
+# --- Git metadata ---
+.git
+.gitmodules
+.gitignore
+
+# --- Notebooks (if any) ---
+.ipynb_checkpoints/
+*.ipynb
+
+# --- Env files (keep examples only) ---
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# --- Compose files (not needed inside image) ---
+docker-compose*.yml
