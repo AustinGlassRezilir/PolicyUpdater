@@ -1,0 +1,31 @@
+# Environment
+.env
+.env.*
+
+# Python cache/build
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# IDE/project files
+.idea/
+.vscode/
+*.iml
+
+# Local data/output
+sharepoint_exports/
+
+# OS cruft
+.DS_Store
+Thumbs.db
