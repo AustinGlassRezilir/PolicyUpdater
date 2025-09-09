@@ -1,8 +1,8 @@
-# Environment
+# --- Environment files ---
 .env
 .env.*
 
-# Python cache/build
+# --- Python cache/build ---
 __pycache__/
 *.py[cod]
 *.pyo
@@ -13,19 +13,19 @@ __pycache__/
 dist/
 build/
 
-# Virtual environments
+# --- Virtual environments ---
 .venv/
 venv/
 ENV/
 
-# IDE/project files
+# --- IDE/project files ---
 .idea/
 .vscode/
 *.iml
 
-# Local data/output
+# --- Local data/output ---
 sharepoint_exports/
 
-# OS cruft
+# --- OS cruft ---
 .DS_Store
 Thumbs.db
